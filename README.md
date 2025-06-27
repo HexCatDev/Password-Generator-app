@@ -15,13 +15,21 @@ Features
 How to Use
     Download the latest .exe file from the Releases page.
 
-    Run the application (you may need to approve it in Windows Security).
+    Run the application (you may need to approve it in Windows Security)
 
     Enter your User name (C:\Users) 
 
-    
+    Enter URL of site where the Login belongs (Optional)
 
-    Enter the service name (e.g., Gmail) and username.
+    Enter name of the file
+
+    Enter the service name (e.g., Gmail) or/and username
+
+    Select password lenght 
+
+    Select to use special characters and numbers
+
+    After the file is generated it will be save to your Downloads
 
 The credentials and generated password will be saved automatically to a text file in the same folder.
 

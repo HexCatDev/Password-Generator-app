@@ -9,6 +9,7 @@ using namespace std;
 int main(){
     string filename;
     string login;
+    string site;
     int passwd_length;
     bool use_special_chars;
     bool use_numbers;
@@ -28,6 +29,10 @@ int main(){
             cout << "That user does not exist or Downloads folder not found. Try again." << endl;
         }
     }
+
+    cout << "Enter the site URL (optional, can be left blank): ";
+    cin.ignore();
+    getline(cin, site); 
 
     cout << "Enter the filename to save the login" << endl;
     cin >> filename;
@@ -68,6 +73,7 @@ int main(){
 
     ofstream file(full_path);
     if (file.is_open()) {
+        file << "Site URL: " << site << endl << endl;
         file << "Login: " << login << endl << endl;
         file << "Password: " << passwd << endl << endl;
         file.close();

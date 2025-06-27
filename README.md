@@ -1,5 +1,5 @@
 # Password-Generator
-# Password Generator App
+## Password Generator App
 
 This is a lightweight Windows desktop application that generates secure passwords and saves them along with user credentials to a local file.
 

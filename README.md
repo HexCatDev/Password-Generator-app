@@ -1,9 +1,9 @@
 # Password-Generator
-#Password Generator App
+# Password Generator App
 
 This is a lightweight Windows desktop application that generates secure passwords and saves them along with user credentials to a local file.
 
-##Features
+## Features
 
 - Randomly generates strong, unique passwords
 
@@ -13,7 +13,7 @@ This is a lightweight Windows desktop application that generates secure password
 
 - No installation required – just run the .exe
 
-##How to Use
+## How to Use
 
 - Download the latest .exe file from the Releases page.
 

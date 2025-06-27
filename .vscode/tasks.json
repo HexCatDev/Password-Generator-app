@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build passwd_generator_app",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-fdiagnostics-color=always",
+                "-g",
+                "passwd_generator.cpp",
+                "-o",
+                "passwd_generator.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Builds the passwd_generator_app C++ file with C++17 support."
+        }
+    ]
+}

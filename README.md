@@ -1,36 +1,38 @@
 # Password-Generator
-Password Generator App
+#Password Generator App
 
 This is a lightweight Windows desktop application that generates secure passwords and saves them along with user credentials to a local file.
 
-Features
- Randomly generates strong, unique passwords
+##Features
 
- Allows input of service name and username
+- Randomly generates strong, unique passwords
 
- Saves credentials to a .txt file on your device
+- Allows input of service name and username
 
- No installation required – just run the .exe
+- Saves credentials to a .txt file on your device
 
-How to Use
- Download the latest .exe file from the Releases page.
+- No installation required – just run the .exe
 
- Run the application (you may need to approve it in Windows Security)
+##How to Use
 
- Enter your User name (C:\Users) 
+- Download the latest .exe file from the Releases page.
 
- Enter URL of site where the Login belongs (Optional)
+- Run the application (you may need to approve it in Windows Security)
 
- Enter name of the file
+- Enter your User name (C:\Users) 
 
- Enter the service name (e.g., Gmail) or/and username
+- Enter URL of site where the Login belongs (Optional)
 
- Select password lenght 
+- Enter name of the file
 
- Select to use special characters and numbers
+- Enter the service name (e.g., Gmail) or/and username
 
- After the file is generated it will be save to your Downloads
+- Select password lenght 
+
+- Select to use special characters and numbers
+
+- After the file is generated it will be save to your Downloads
 
 The credentials and generated password will be saved automatically to a text file in the same folder.
 
-Note: The file is saved in plain text. Handle and store it securely.
+**Note:** The file is saved in plain text. Handle and store it securely.
